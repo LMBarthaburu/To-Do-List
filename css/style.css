@@ -108,6 +108,7 @@ input:focus{
   width: 80%;
 }
 .text-container{
+  width: 100%;
   color: var(--dark);
   font-size: 15px;
   font-weight: bolder;
