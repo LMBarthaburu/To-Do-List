@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 :root{
-  --primary: #a5c882;
-  --secondary: #d33f49;
+  --primary: #1ca800d0;
+  --secondary: #d60e1b;
   --light: #f1f1f1;
-  --dark: #333333;
+  --dark: #202020;
   --disabled: #dadada;
-  --done: #1ca800d0;
 }
 *{
   margin: 0;
@@ -80,12 +79,12 @@ input:focus{
   background-color: var(--disabled);
 }
 .order-btn{
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: var(--light);
   border-radius: 5px;
 }
 .clean-btn{
-  background-color: var(--dark);
+  background-color: var(--secondary);
   border-radius: 5px;
   color: var(--light);
 }
@@ -139,7 +138,7 @@ input:focus{
   color: var(--secondary);
 }
 .done-btn{
-  color: var(--done);
+  color: var(--primary);
 }
 .uncheck{
   color: var(--disabled);
