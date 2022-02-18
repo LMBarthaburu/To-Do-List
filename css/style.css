@@ -108,6 +108,7 @@ input:focus{
   width: 80%;
 }
 .text-container{
+  padding: 0;
   width: 100%;
   color: var(--dark);
   font-size: 15px;
@@ -148,7 +149,7 @@ input:focus{
 @media (max-width: 577px) {
   .list{
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
   }
   #date-number{
